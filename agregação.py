@@ -17,7 +17,7 @@ class Empregado:
         return self.salario_agregado.salario_anual()
 
 
-salario = Salario(1000, 700)
+salario = Salario(10000, 700)
 emp = Empregado("Muaski", 46, salario)
 
 print(emp.salario_tota())
